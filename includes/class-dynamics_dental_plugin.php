@@ -174,7 +174,7 @@ class Dynamics_dental_plugin {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 		$this->loader->add_action( 'pre_get_posts', $plugin_public, 'filtrar_post_type' );
-		 add_filter('pre_get_posts', 'filtrar_post_type'); 
+		/*  add_filter('pre_get_posts', 'filtrar_post_type');  */
 
 	}
 
